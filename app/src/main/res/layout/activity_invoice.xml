@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Invoice">
+
+    <Button
+        android:id="@+id/Invoice"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:background="#008577"
+        android:text="Generate Bar Code "
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#d6223a"
+        android:text="Invoice"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/CustName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:text="Customer Name" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Invoicing Date"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="213dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Product"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Quantity"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginBottom="150dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="Total Price"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
